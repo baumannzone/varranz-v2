@@ -1,6 +1,8 @@
 <template>
   <div class="three-block">
     <div class="block-1">
+      <img src="./img/eventos.svg" alt="hola" width="45px">
+
       <h3>Eventos</h3>
       <p>Celebración de todo tipo de eventos. Raciones para llevar o degustar. Tapas de Ibéricos.</p>
     </div>
