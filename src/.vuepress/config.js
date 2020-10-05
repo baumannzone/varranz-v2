@@ -10,9 +10,9 @@ module.exports = {
   ],
 
   themeConfig: {
-    repo: 'https://github.com/baumannzone/varranz-v2',
+    logo: '/logo-v-arranz.png',
+    docsDir: 'src',
     editLinks: false,
-    docsDir: '',
     editLinkText: '',
     lastUpdated: false,
     nav: [
@@ -22,34 +22,18 @@ module.exports = {
       },
       {
         text: 'Carta Online',
-        link: '/carta'
+        link: '/carta/'
       },
       {
         text: 'Restaurante',
-        link: '/restaurante'
+        link: '/restaurante/'
       },
       {
         text: 'Contacto',
-        link: '/contacto'
+        link: '/contacto/'
       }
-    ],
-    // sidebar: {
-    //   '/guide/': [
-    //     {
-    //       title: 'Guide',
-    //       collapsable: false,
-    //       children: [
-    //         '',
-    //         'using-vue',
-    //       ]
-    //     }
-    //   ],
-    // }
+    ]
   },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',

@@ -1,15 +1,22 @@
----
-home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
----
+<IndexHeader />
+
+![V. Arranz - Salon](/img/index/salon-1.jpg)
+
+## Horario
+De **Martes** a **Domingo** `10:00` - `23:45`  
+Lunes cerrado por descanso.
+
+<TwoCols>
+  <template v-slot:col-1>
+    <p>Celebre con nosostros sus eventos: bodas, comuniones, bautizos, aniversarios...</p>
+  </template>
+
+  <template v-slot:col-2>
+    <p>Aquí va alguna información de contacto</p>
+  </template>
+</TwoCols>
+
+<ThreeBlock />
+
+<!-- <SeparatorBar color="grey"/> -->
+<!-- <SeparatorBar color="red"/> -->
