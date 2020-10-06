@@ -1,12 +1,17 @@
 const { description } = 'Bar restaurante · Comida tradicional'
+let ogprefix = 'og: http://ogp.me/ns#'
 
 module.exports = {
   title: 'V. Arranz',
   description: description,
   head: [
-    ['meta', { name: 'theme-color', content: '#d41441' }],
+    ['link', {rel: 'icon', href: './favicon.png'}],
+    ['meta', {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'}],
+    ['meta', { name: 'theme-color', content: '#f13266' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', {prefix: ogprefix, property: 'og:type', content: 'website'}],
+    ['meta', {prefix: ogprefix, property: 'og:url', content: 'https://www.varranz.com/'}],
   ],
 
   themeConfig: {
@@ -21,7 +26,7 @@ module.exports = {
         link: '/',
       },
       {
-        text: 'Carta Online',
+        text: 'Carta',
         link: '/carta/'
       },
       {
@@ -37,5 +42,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
 }
