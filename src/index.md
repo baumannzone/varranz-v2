@@ -2,10 +2,14 @@
 
 ![V. Arranz - Salon](/img/index/salon-1.jpg)
 
-## Horario
-De **Martes** a **Domingo** `10:00` - `23:45`  
-Lunes cerrado por descanso.
+<br>
+<br>
+<br>
 
+
+<ThreeBlock />
+
+<!-- 
 <TwoCols>
   <template v-slot:col-1>
     <p>Celebre con nosostros sus eventos: bodas, comuniones, bautizos, aniversarios...</p>
@@ -16,7 +20,6 @@ Lunes cerrado por descanso.
   </template>
 </TwoCols>
 
-<ThreeBlock />
 
-<!-- <SeparatorBar color="grey"/> -->
+<SeparatorBar color="grey"/> -->
 <!-- <SeparatorBar color="red"/> -->
