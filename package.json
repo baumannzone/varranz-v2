@@ -1,19 +1,19 @@
 {
   "name": "v-arranz",
-  "version": "0.0.1",
-  "description": "",
+  "description": "V. Arranz - Bar Restaurante",
   "main": "index.js",
-  "authors": {
-    "name": "",
-    "email": ""
-  },
-  "repository": "/V. Arranz",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-google-analytics": "^1.4.0",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "vuepress-plugin-robots": "^1.0.1",
+    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
