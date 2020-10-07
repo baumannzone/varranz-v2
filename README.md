@@ -1,2 +1,2 @@
-# varranz-v2
-V. Arranz - Bar restaurante
+# V. Arranz - Vuepress
+Sitio web de V. Arranz, bar restaurante.
