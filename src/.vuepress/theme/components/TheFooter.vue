@@ -3,7 +3,8 @@
     <div class="theme-default-content content__default">
       <div class="row">
         <div class="col col-1">
-          1111
+          <img src="/logo-v-arranz.png" alt="V. Arranz logo" width="200px">
+          <p>Restaurante de comida tradicional</p>
         </div>
         <div class="col col-2">
           2222
