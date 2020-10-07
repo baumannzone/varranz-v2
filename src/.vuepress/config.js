@@ -1,4 +1,4 @@
-const { description } = 'Bar restaurante · Comida tradicional · San Sebastián de los Reyes (Madrid)'
+const { description } = 'Bar restaurante · Comida tradicional · San Sebastián de los Reyes (Madrid) · 91 261 25 03'
 let ogprefix = 'og: http://ogp.me/ns#'
 
 module.exports = {
@@ -6,6 +6,7 @@ module.exports = {
   description: description,
   head: [
     ['link', {rel: 'icon', href: './favicon.png'}],
+    ['meta', {property: 'description', content: description}],
     ['meta', {prefix: ogprefix, property: 'og:description', content: description}],
     ['meta', {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'}],
     ['meta', { name: 'theme-color', content: '#f13266' }],
