@@ -24,7 +24,7 @@ export default {}
     margin-bottom 0
     font-weight 500
     font-size .85rem
-    color #aaa
+    color #888
     text-transform uppercase
 
 </style>

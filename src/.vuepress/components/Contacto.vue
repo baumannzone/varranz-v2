@@ -1,22 +1,23 @@
 <template>
-  <div class="three-block">
-    <div class="block block-1">
+  <div>
+    <div class="block block-2">
       <div class="header-container">
         <div class="col-1">
-          <img src="./img/eventos.svg" alt="Icono globos" width="45px">
+          <img src="./img/llamada.svg" alt="Icono llamada" width="45px">
         </div>
         <div class="col-2">
-          <h2>Eventos</h2>
+          <h2>Reservas</h2>
         </div>
       </div>
-      <p>
-        <b> Bar Restaurante V. Arranz</b> es el lugar perfecto para la celebración de todo tipo de eventos.
-        <br>
-        Una carta bien pensada con una selección de recetas de cocina inspiradas principalmente en la tradición
-        culinaria de nuestro país.
-      </p>
+      <div class="contact">
+        <p>
+          Teléfono: <strong>91 261 25 03</strong>
+          <br>
+          Abrimos de <strong>martes</strong> a <strong>domingo</strong>, de <strong>10:00</strong> a <strong>23:45</strong>.
+        </p>
+      </div>
     </div>
-
+    <br>
     <div class="block block-3">
       <div class="header-container">
         <div class="col-1">
@@ -44,70 +45,16 @@
         </a>
       </div>
     </div>
-
-    <div class="block block-2">
-      <div class="header-container">
-        <div class="col-1">
-          <img src="./img/horario.svg" alt="Icono reloj" width="45px">
-        </div>
-        <div class="col-2">
-          <h2>Horario</h2>
-        </div>
-      </div>
-      <ul class="list">
-        <li v-for="{day, hours} in scheduling">
-          <div class="day">
-            {{ day }}
-          </div>
-          <div class="hour" :class="{monday: day.toLowerCase() === 'lunes'}">{{ hours }}</div>
-        </li>
-      </ul>
-    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ThreeBlock",
-  data() {
-    return {
-      scheduling: [
-        {day: 'Lunes', hours: 'Cerrado'},
-        {day: 'Martes', hours: '10:00 - 23:45'},
-        {day: 'Miércoles', hours: '10:00 - 23:45'},
-        {day: 'Jueves', hours: '10:00 - 23:45'},
-        {day: 'Viernes', hours: '10:00 - 23:45'},
-        {day: 'Sábado', hours: '10:00 - 23:45'},
-        {day: 'Domingo', hours: '10:00 - 23:45'},
-      ]
-    }
-  },
+
 }
 </script>
 
 <style scoped lang="stylus">
-.block
-  margin-bottom 30px
-
-.list
-  list-style none
-  padding-left 0
-
-  li
-    display flex
-    justify-content space-between
-    margin-bottom 5px
-
-    &:not(:last-child)
-      border-bottom 1px solid #eaeaea
-
-    .day,
-    .hour
-      padding 0 10px
-
-    .hour.monday
-      color #999
-
 .header-container
   position relative
   display flex
@@ -146,5 +93,4 @@ export default {
     display block
     text-align center
     color #823d3d
-
 </style>
