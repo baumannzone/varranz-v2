@@ -13,7 +13,7 @@
         <div class="col col-2">
           <ul>
             <li>
-              <a href="/covid/">Protocolo Covid</a>
+              <a href="/protocolo-covid/">Protocolo Covid</a>
             </li>
             <li>
               <a href="/carta/">Carta</a>
