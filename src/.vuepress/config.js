@@ -34,6 +34,10 @@ module.exports = {
         link: '/restaurante/'
       },
       {
+        text: 'Protocolo Covid',
+        link: '/protocolo-covid/'
+      },
+      {
         text: 'Contacto',
         link: '/contacto/'
       }
